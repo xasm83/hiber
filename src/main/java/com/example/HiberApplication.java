@@ -45,6 +45,9 @@ public class HiberApplication {
         user2.setAddress(address2);
         user2.setUserId(1);
 
+//Batch update returned unexpected row count from update
+//        user2.setUserId(6);
+
 //will do just this Hibernate: update user set user_name=? where id=?
         session.update(user2);
 
