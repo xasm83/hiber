@@ -1,0 +1,13 @@
+target/
+.idea
+*.iml
+
+*.log
+
+# Eclipse files to ignore
+.project
+.settings/
+.classpath
+local.properties
+
+
